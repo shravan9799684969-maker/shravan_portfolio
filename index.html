@@ -1,0 +1,1348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary Meta Tags -->
+  <title>Shravan Kumar | B.Tech Mechanical Engineering Student</title>
+  <meta name="title" content="Shravan Kumar | B.Tech Mechanical Engineering Student">
+  <meta name="description" content="Portfolio of Shravan Kumar, a first-year B.Tech Mechanical Engineering student interested in engineering, technology, innovation, and continuous learning.">
+  <meta name="keywords" content="Shravan Kumar, Mechanical Engineering, JECRC University, Army Public School Amritsar, Engineering Portfolio, First Year B.Tech, CAD, Robotics">
+  <meta name="author" content="Shravan Kumar">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://shravankumar.me/">
+  <meta property="og:title" content="Shravan Kumar | B.Tech Mechanical Engineering Student">
+  <meta property="og:description" content="Portfolio of Shravan Kumar, a first-year B.Tech Mechanical Engineering student at JECRC University, Jaipur passionate about engineering, technology, and practical innovation.">
+  <meta property="og:image" content="assets/avatar-placeholder.svg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Shravan Kumar | B.Tech Mechanical Engineering Student">
+  <meta property="twitter:description" content="Portfolio of Shravan Kumar, a first-year B.Tech Mechanical Engineering student at JECRC University, Jaipur.">
+  <meta property="twitter:image" content="assets/avatar-placeholder.svg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="apple-touch-icon" href="assets/favicon.svg">
+
+  <!-- Google Fonts Preconnect & Stylesheet -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Ambient Decorative Background Glow Orbs -->
+  <div class="ambient-glow ambient-glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow ambient-glow-2" aria-hidden="true"></div>
+
+  <!-- Hidden File Input for Live Profile Photo Preview / Upload -->
+  <input type="file" id="user-photo-upload" accept="image/*" style="display: none;" aria-label="Upload profile photo">
+
+  <!-- =========================================================================
+       NAVIGATION BAR
+       ========================================================================= -->
+  <header>
+    <nav class="navbar" aria-label="Main Navigation">
+      <div class="container nav-container">
+        <!-- Brand Identity -->
+        <a href="#home" class="nav-brand" aria-label="Shravan Kumar Homepage">
+          <div class="brand-badge" aria-hidden="true">SK</div>
+          <div class="brand-info">
+            <span class="brand-name">Shravan Kumar</span>
+            <span class="brand-meta">
+              <span class="status-dot" aria-hidden="true"></span>
+              <span>B.Tech ME &bull; 1st Year</span>
+            </span>
+          </div>
+        </a>
+
+        <!-- Desktop & Mobile Navigation Links -->
+        <ul class="nav-menu" id="nav-menu" role="menubar">
+          <li role="none"><a href="#home" class="nav-link active" role="menuitem">Home</a></li>
+          <li role="none"><a href="#about" class="nav-link" role="menuitem">About</a></li>
+          <li role="none"><a href="#education" class="nav-link" role="menuitem">Education</a></li>
+          <li role="none"><a href="#skills" class="nav-link" role="menuitem">Skills</a></li>
+          <li role="none"><a href="#projects" class="nav-link" role="menuitem">Projects</a></li>
+          <li role="none"><a href="#interests" class="nav-link" role="menuitem">Interests</a></li>
+          <li role="none"><a href="#contact" class="nav-link" role="menuitem">Contact</a></li>
+        </ul>
+
+        <!-- Right Side Nav Actions -->
+        <div class="nav-actions">
+          <!-- Theme Switcher -->
+          <button id="theme-toggle-btn" class="theme-toggle-btn" type="button" aria-label="Toggle color theme" title="Switch Theme">
+            <!-- Moon icon (for dark mode) -->
+            <svg class="theme-icon-dark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+            <!-- Sun icon (for light mode) -->
+            <svg class="theme-icon-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+          </button>
+
+          <!-- Quick Resume Trigger -->
+          <button class="nav-resume-btn open-resume-btn" type="button" title="View Resume / CV">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="16" y1="13" x2="8" y2="13"></line>
+              <line x1="16" y1="17" x2="8" y2="17"></line>
+              <polyline points="10 9 9 9 8 9"></polyline>
+            </svg>
+            <span>Resume</span>
+          </button>
+
+          <!-- Mobile Hamburger Toggle -->
+          <button class="mobile-toggle" id="mobile-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- =========================================================================
+       1. HERO SECTION
+       ========================================================================= -->
+  <section id="home" class="hero-section">
+    <div class="container hero-grid">
+      
+      <!-- Hero Left: Headline & Intro -->
+      <div class="hero-content reveal-on-scroll">
+        <div class="hero-status-pill">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span>JECRC University, Jaipur &bull; <strong>9.5 CGPA</strong></span>
+        </div>
+
+        <div>
+          <span class="hero-title-greeting">Hi, I'm</span>
+          <h1 class="hero-title">Shravan Kumar</h1>
+          <p class="hero-subtitle">
+            B.Tech Mechanical Engineering Student | First Year
+          </p>
+        </div>
+
+        <p class="hero-description">
+          I am a first-year B.Tech Mechanical Engineering student passionate about engineering, technology, innovation, and continuous learning. I am currently building my technical knowledge and practical skills while exploring the different areas of mechanical engineering.
+        </p>
+
+        <!-- Prominent Call to Action Buttons -->
+        <div class="hero-cta-group">
+          <a href="#education" class="btn btn-primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+              <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+            </svg>
+            <span>View My Education</span>
+          </a>
+
+          <a href="#contact" class="btn btn-secondary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <span>Contact Me</span>
+          </a>
+
+          <button type="button" class="btn btn-outline open-resume-btn" title="Open Resume Modal">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            <span>Download CV</span>
+          </button>
+        </div>
+
+        <!-- Social Channels & Quick Email Strip -->
+        <div class="hero-social-strip">
+          <span class="social-strip-label">Direct Connect:</span>
+          <div class="social-links">
+            <!-- LinkedIn (Provided Actual URL) -->
+            <a href="https://www.linkedin.com/in/shravan-kumar-25176b433?utm_source=share_via&utm_content=profile&utm_medium=member_android" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="social-btn" 
+               aria-label="Connect on LinkedIn" 
+               title="LinkedIn Profile">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+
+            <!-- Email Mailto (Provided Actual Address) -->
+            <a href="mailto:shravan284687@gmail.com" 
+               class="social-btn" 
+               aria-label="Send Email to shravan284687@gmail.com" 
+               title="Send an Email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </a>
+
+            <!-- GitHub (Placeholder URL) -->
+            <a href="https://github.com" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="social-btn" 
+               aria-label="GitHub Profile Placeholder" 
+               title="GitHub (Placeholder)">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+              </svg>
+            </a>
+
+            <!-- 1-Click Copy Email Button -->
+            <button class="social-btn copy-email-btn" type="button" aria-label="Copy email address" title="Copy Email to Clipboard">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Right: Interactive 3D Mechanical Gear Simulation & Profile Dock -->
+      <div class="hero-visual-card hud-corner reveal-on-scroll">
+        <div class="visual-card-header">
+          <div class="hud-telemetry">
+            <span class="telemetry-tag">CAD.MODEL://</span>
+            <span>KINEMATIC GEAR ASSEMBLY</span>
+          </div>
+          <div class="hud-telemetry">
+            <span class="status-dot"></span>
+            <span>60 FPS &bull; REAL-TIME</span>
+          </div>
+        </div>
+
+        <!-- Three.js Canvas Container -->
+        <div id="three-canvas-container" class="three-canvas-container" aria-label="Interactive 3D Mechanical Gear Assembly Model">
+          <div class="canvas-hint" aria-hidden="true">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M12 8v8M8 12h8"></path>
+            </svg>
+            <span>Hover / Move cursor to rotate 3D mechanism</span>
+          </div>
+        </div>
+
+        <!-- Profile Dock with Live Photo Preview -->
+        <div class="profile-dock">
+          <div class="profile-dock-left">
+            <img src="assets/avatar-placeholder.svg" alt="Shravan Kumar" class="profile-mini-thumb dynamic-avatar-img">
+            <div class="profile-dock-meta">
+              <span class="profile-dock-name">Shravan Kumar</span>
+              <span class="profile-dock-label">B.Tech ME &bull; First Year</span>
+            </div>
+          </div>
+          <button type="button" class="photo-preview-btn" onclick="document.getElementById('user-photo-upload').click();" title="Test loading your real photo">
+            📷 Test Photo
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       2. ABOUT ME SECTION
+       ========================================================================= -->
+  <section id="about" class="section">
+    <div class="container">
+      
+      <div class="section-header reveal-on-scroll">
+        <div class="section-tag">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="16" x2="12" y2="12"></line>
+            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+          </svg>
+          <span>Background & Focus</span>
+        </div>
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">
+          Motivated first-year engineering student dedicated to understanding mechanical systems, scientific principles, and building a disciplined foundation.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        
+        <!-- Left Column: Large Avatar Card & Fast Academic Summary -->
+        <div class="about-card-left hud-corner reveal-on-scroll">
+          <div class="avatar-large-wrapper">
+            <img src="assets/avatar-placeholder.svg" alt="Shravan Kumar Profile Photo" class="dynamic-avatar-img" id="about-avatar-display">
+          </div>
+
+          <!-- Quick Button to Replace Placeholder Image Live -->
+          <button type="button" class="avatar-upload-cta" onclick="document.getElementById('user-photo-upload').click();">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="17 8 12 3 7 8"></polyline>
+              <line x1="12" y1="3" x2="12" y2="15"></line>
+            </svg>
+            <span>Upload / Preview Your Photo</span>
+          </button>
+
+          <!-- Core Academic Key Highlights Grid -->
+          <div class="about-highlights-badges">
+            <div class="highlight-stat-pill">
+              <span class="highlight-stat-val">9.5</span>
+              <span class="highlight-stat-lbl">First Year CGPA</span>
+            </div>
+            <div class="highlight-stat-pill">
+              <span class="highlight-stat-val">AIR 156</span>
+              <span class="highlight-stat-lbl">Merchant Navy</span>
+            </div>
+            <div class="highlight-stat-pill">
+              <span class="highlight-stat-val">90%</span>
+              <span class="highlight-stat-lbl">Class 12 CBSE</span>
+            </div>
+            <div class="highlight-stat-pill">
+              <span class="highlight-stat-val">92%</span>
+              <span class="highlight-stat-lbl">Class 10 CBSE</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Personal Narrative & Core Values -->
+        <div class="about-content-right reveal-on-scroll">
+          <p class="about-lead">
+            I am currently pursuing my <strong>B.Tech in Mechanical Engineering</strong> as a first-year undergraduate at <strong>JECRC University, Jaipur</strong>.
+          </p>
+          
+          <p class="about-body-text">
+            I completed my schooling from <strong>Army Public School, Amritsar</strong>, under the CBSE board with strong academic distinction. Growing up in a disciplined educational environment instilled in me a dedication towards my career, integrity in learning, and a natural curiosity for how physical mechanisms and machines operate.
+          </p>
+
+          <p class="about-body-text">
+            As a first-year student, I recognize that true mastery begins with solid fundamentals. Rather than rushing into inflated claims, I focus my daily efforts on grasping engineering mechanics, mathematics, manufacturing processes, and emerging computational tools. Outside the classroom, my competitive journey in sports and entrance exams has forged high mental stamina and collaborative team spirit.
+          </p>
+
+          <!-- Key Pillars -->
+          <div class="about-key-points">
+            
+            <div class="key-point-card">
+              <div class="key-point-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                  <path d="M2 17l10 5 10-5"></path>
+                  <path d="M2 12l10 5 10-5"></path>
+                </svg>
+              </div>
+              <div class="key-point-text">
+                <h4>Disciplined Educational Foundation</h4>
+                <p>Army Public School, Amritsar instilled rigorous work ethics, punctuality, and unwavering dedication towards personal and professional milestones.</p>
+              </div>
+            </div>
+
+            <div class="key-point-card">
+              <div class="key-point-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polygon points="10 8 16 12 10 16 10 8"></polygon>
+                </svg>
+              </div>
+              <div class="key-point-text">
+                <h4>Hands-On Technical Curiosity</h4>
+                <p>Deep interest in mechanical design, CAD drafting, workshop fabrication, robotics, and integrating modern AI tools into engineering workflows.</p>
+              </div>
+            </div>
+
+            <div class="key-point-card">
+              <div class="key-point-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+                  <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+                  <line x1="6" y1="1" x2="6" y2="4"></line>
+                  <line x1="10" y1="1" x2="10" y2="4"></line>
+                  <line x1="14" y1="1" x2="14" y2="4"></line>
+                </svg>
+              </div>
+              <div class="key-point-text">
+                <h4>Competitive Sportsmanship</h4>
+                <p>State-level football and district-level basketball experience developed composure under pressure, quick decision-making, and seamless teamwork.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       3. EDUCATION & ACHIEVEMENTS SECTION (MAJOR SECTION)
+       ========================================================================= -->
+  <section id="education" class="section education-section">
+    <div class="container">
+      
+      <div class="section-header reveal-on-scroll">
+        <div class="section-tag">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+            <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+          </svg>
+          <span>Milestones & Track Record</span>
+        </div>
+        <h2 class="section-title">Education & Achievements</h2>
+        <p class="section-subtitle">
+          A proven track record of academic excellence, competitive examination aptitude, and high-level sports involvement.
+        </p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="edu-tabs reveal-on-scroll" role="tablist" aria-label="Education and Achievements Filter">
+        <button class="tab-btn active" data-filter="all" type="button" role="tab" aria-selected="true">
+          <span>All Highlights</span>
+        </button>
+        <button class="tab-btn" data-filter="academic" type="button" role="tab" aria-selected="false">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path></svg>
+          <span>Academic Milestones</span>
+        </button>
+        <button class="tab-btn" data-filter="achievement" type="button" role="tab" aria-selected="false">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+          <span>Achievements & Honors</span>
+        </button>
+      </div>
+
+      <!-- Timeline Container -->
+      <div class="timeline-container">
+        <div class="timeline-line" aria-hidden="true"></div>
+
+        <!-- Timeline Item 1: B.Tech First Year (Featured) -->
+        <div class="timeline-item reveal-on-scroll" data-category="academic">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-content-card">
+            <div class="edu-card featured hud-corner">
+              <div class="edu-card-top">
+                <div>
+                  <h3 class="edu-degree">B.Tech in Mechanical Engineering</h3>
+                  <div class="edu-institution">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg>
+                    <span>JECRC University, Jaipur</span>
+                  </div>
+                </div>
+                <div class="edu-score-badge" title="First Year CGPA">
+                  <span class="score-val" data-counter-target="9.5" data-counter-suffix=" CGPA">9.5</span>
+                  <span class="score-lbl">1st Year</span>
+                </div>
+              </div>
+
+              <div class="edu-meta-row">
+                <span class="edu-meta-chip">Year: First Year</span>
+                <span class="edu-meta-chip">Status: Currently Pursuing</span>
+                <span class="edu-meta-chip">Discipline: Mechanical Engineering</span>
+              </div>
+
+              <p class="edu-desc">
+                Engaged in foundational coursework including Engineering Mechanics, Mathematics, Basics of Electrical & Electronics, Workshop Practice, and Engineering Graphics / CAD. Maintaining a strong <strong>9.5 CGPA</strong>.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Timeline Item 2: Class 12 CBSE -->
+        <div class="timeline-item reveal-on-scroll" data-category="academic">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-content-card">
+            <div class="edu-card hud-corner">
+              <div class="edu-card-top">
+                <div>
+                  <h3 class="edu-degree">Senior Secondary (Class XII) – CBSE</h3>
+                  <div class="edu-institution">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg>
+                    <span>Army Public School, Amritsar</span>
+                  </div>
+                </div>
+                <div class="edu-score-badge gold" title="Class 12 Percentage">
+                  <span class="score-val" data-counter-target="90" data-counter-suffix="%">90%</span>
+                  <span class="score-lbl">CBSE Board</span>
+                </div>
+              </div>
+
+              <div class="edu-meta-row">
+                <span class="edu-meta-chip">Board: CBSE</span>
+                <span class="edu-meta-chip">Percentage: 90%</span>
+                <span class="edu-meta-chip">Stream: Science (PCM)</span>
+              </div>
+
+              <p class="edu-desc">
+                Completed higher secondary education with distinction. Developed robust problem-solving skills in Physics, Chemistry, and Advanced Mathematics, preparing thoroughly for national engineering and competitive entrance examinations.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Timeline Item 3: Class 10 CBSE -->
+        <div class="timeline-item reveal-on-scroll" data-category="academic">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-content-card">
+            <div class="edu-card hud-corner">
+              <div class="edu-card-top">
+                <div>
+                  <h3 class="edu-degree">Secondary Schooling (Class X) – CBSE</h3>
+                  <div class="edu-institution">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg>
+                    <span>Army Public School, Amritsar</span>
+                  </div>
+                </div>
+                <div class="edu-score-badge gold" title="Class 10 Percentage">
+                  <span class="score-val" data-counter-target="92" data-counter-suffix="%">92%</span>
+                  <span class="score-lbl">CBSE Board</span>
+                </div>
+              </div>
+
+              <div class="edu-meta-row">
+                <span class="edu-meta-chip">Board: CBSE</span>
+                <span class="edu-meta-chip">Percentage: 92%</span>
+                <span class="edu-meta-chip">Foundation Years</span>
+              </div>
+
+              <p class="edu-desc">
+                Secured an exceptional <strong>92%</strong> score across all subjects under the CBSE board, establishing a disciplined academic routine, active sports participation, and strong analytical capabilities.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Major Achievements Grid -->
+      <div class="achievements-grid" id="achievements-showcase">
+        
+        <!-- Achievement 1: All India Rank 156 in Merchant Navy -->
+        <div class="achievement-card hud-corner reveal-on-scroll" data-category="achievement">
+          <div>
+            <div class="achieve-header">
+              <div class="achieve-icon-box" aria-hidden="true">
+                <!-- Anchor / Compass Icon -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="5" r="3"></circle>
+                  <line x1="12" y1="22" x2="12" y2="8"></line>
+                  <path d="M5 12H2a10 10 0 0 0 20 0h-3"></path>
+                </svg>
+              </div>
+              <span class="achieve-badge">National Competitive Exam</span>
+            </div>
+            <h3 class="achieve-title">All India Rank (AIR) 156</h3>
+            <p class="achieve-desc">
+              Secured All India Rank <strong>156</strong> in the prestigious Merchant Navy entrance examination, demonstrating exceptional aptitude in technical mathematics, general science, physics, and logical reasoning.
+            </p>
+          </div>
+        </div>
+
+        <!-- Achievement 2: NDA Screen Out (SSB Experience) -->
+        <div class="achievement-card hud-corner reveal-on-scroll" data-category="achievement">
+          <div>
+            <div class="achieve-header">
+              <div class="achieve-icon-box blue" aria-hidden="true">
+                <!-- Shield / Medal Icon -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+              </div>
+              <span class="achieve-badge" style="color: var(--accent-cyan); background: rgba(56, 189, 248, 0.1);">Defence Services Exam</span>
+            </div>
+            <h3 class="achieve-title">NDA Written Qualified & SSB Candidate</h3>
+            <p class="achieve-desc">
+              Successfully cleared the National Defence Academy (NDA) written examination and attended the rigorous Services Selection Board (SSB) interview process (Screen Out stage), experiencing premier leadership and psychological assessments.
+            </p>
+          </div>
+        </div>
+
+        <!-- Achievement 3: State Level Football Player -->
+        <div class="achievement-card hud-corner reveal-on-scroll" data-category="achievement">
+          <div>
+            <div class="achieve-header">
+              <div class="achieve-icon-box emerald" aria-hidden="true">
+                <!-- Football / Sports Icon -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                  <path d="M2 12h20"></path>
+                </svg>
+              </div>
+              <span class="achieve-badge" style="color: var(--accent-emerald); background: rgba(16, 185, 129, 0.1);">Sports & Athletics</span>
+            </div>
+            <h3 class="achieve-title">State Level Football Player</h3>
+            <p class="achieve-desc">
+              Represented at the State level in competitive football. Developed high physical stamina, positional strategy, agile coordination, and the ability to perform calmly in high-stakes matches.
+            </p>
+          </div>
+        </div>
+
+        <!-- Achievement 4: District Level Basketball Player -->
+        <div class="achievement-card hud-corner reveal-on-scroll" data-category="achievement">
+          <div>
+            <div class="achieve-header">
+              <div class="achieve-icon-box" aria-hidden="true">
+                <!-- Basketball Trophy Icon -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="4.93" y1="4.93" x2="19.07" y2="19.07"></line>
+                  <line x1="19.07" y1="4.93" x2="4.93" y2="19.07"></line>
+                </svg>
+              </div>
+              <span class="achieve-badge">Sports & Athletics</span>
+            </div>
+            <h3 class="achieve-title">District Level Basketball Player</h3>
+            <p class="achieve-desc">
+              Competed at the District level in basketball. Regular training sharpened fast tactical awareness, teamwork dynamics, defensive discipline, and quick court communication.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       4. SKILLS & LEARNING SECTION
+       ========================================================================= -->
+  <section id="skills" class="section">
+    <div class="container">
+      
+      <div class="section-header reveal-on-scroll">
+        <div class="section-tag">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+            <polyline points="2 17 12 22 22 17"></polyline>
+            <polyline points="2 12 12 17 22 12"></polyline>
+          </svg>
+          <span>Continuous Skill Development</span>
+        </div>
+        <h2 class="section-title">Skills & Learning</h2>
+        <p class="section-subtitle">
+          Transparently presenting the foundational skills, technological tools, and core interpersonal abilities I am actively learning and cultivating in my first year.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        
+        <!-- Category 1: Engineering Fundamentals -->
+        <div class="skill-category-card hud-corner reveal-on-scroll">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="3"></circle>
+                <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+              </svg>
+            </div>
+            <h3 class="skill-cat-title">Engineering</h3>
+          </div>
+
+          <div class="skill-items-list">
+            <div class="skill-item">
+              <div class="skill-item-info">
+                <span class="skill-dot"></span>
+                <span class="skill-name">Mechanical Eng. Fundamentals</span>
+              </div>
+              <span class="skill-status-tag">Core Learning</span>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-item-info">
+                <span class="skill-dot"></span>
+                <span class="skill-name">Engineering Mathematics</span>
+              </div>
+              <span class="skill-status-tag">Foundation</span>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-item-info">
+                <span class="skill-dot"></span>
+                <span class="skill-name">Problem Solving & Logic</span>
+              </div>
+              <span class="skill-status-tag">Active Practice</span>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-item-info">
+                <span class="skill-dot"></span>
+                <span class="skill-name">Technical Learning</span>
+              </div>
+              <span class="skill-status-tag">Developing</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 2: Technology & Digital Tools -->
+        <div class="skill-category-card hud-corner reveal-on-scroll">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <h3 class="skill-cat-title">Technology</h3>
+          </div>
+
+          <div class="skill-items-list">
+            <div class="skill-item">
+              <div class="skill-item-info">
+                <span class="skill-dot"></span>
+                <span class="skill-name">Basic Programming</span>
+              </div>
+              <span class="skill-status-tag">Introductory</span>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-item-info">
+                <span class="skill-dot"></span>
+                <span class="skill-name">Generative AI / AI Tools</span>
+              </div>
+              <span class="skill-status-tag">Exploring</span>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-item-info">
+                <span class="skill-dot"></span>
+                <span class="skill-name">Digital Productivity Tools</span>
+              </div>
+              <span class="skill-status-tag">Proficient</span>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-item-info">
+                <span class="skill-dot"></span>
+                <span class="skill-name">Technical Documentation</span>
+              </div>
+              <span class="skill-status-tag">Developing</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 3: Soft Skills -->
+        <div class="skill-category-card hud-corner reveal-on-scroll">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h3 class="skill-cat-title">Soft Skills</h3>
+          </div>
+
+          <div class="skill-items-list">
+            <div class="skill-item">
+              <div class="skill-item-info">
+                <span class="skill-dot"></span>
+                <span class="skill-name">Communication</span>
+              </div>
+              <span class="skill-status-tag">Strong</span>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-item-info">
+                <span class="skill-dot"></span>
+                <span class="skill-name">Teamwork & Collaboration</span>
+              </div>
+              <span class="skill-status-tag">Cultivated in Sports</span>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-item-info">
+                <span class="skill-dot"></span>
+                <span class="skill-name">Time Management</span>
+              </div>
+              <span class="skill-status-tag">Disciplined</span>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-item-info">
+                <span class="skill-dot"></span>
+                <span class="skill-name">Creativity & Adaptability</span>
+              </div>
+              <span class="skill-status-tag">Continuous</span>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-item-info">
+                <span class="skill-dot"></span>
+                <span class="skill-name">Continuous Learning</span>
+              </div>
+              <span class="skill-status-tag">Mindset</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       5. PROJECTS & ACADEMIC LAB EXPLORATIONS
+       (Accurately labeled for a 1st year student with easy editability)
+       ========================================================================= -->
+  <section id="projects" class="section">
+    <div class="container">
+      
+      <div class="section-header reveal-on-scroll">
+        <div class="section-tag">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="16 18 22 12 16 6"></polyline>
+            <polyline points="8 6 2 12 8 18"></polyline>
+          </svg>
+          <span>Hands-On Exploration</span>
+        </div>
+        <h2 class="section-title">Academic & Lab Work</h2>
+        <p class="section-subtitle">
+          Foundational course assignments, mechanical workshop experiments, and exploratory projects currently underway in my first year.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        
+        <!-- Project 1: Engineering Graphics & CAD Study -->
+        <article class="project-card hud-corner reveal-on-scroll">
+          <div class="project-badge-row">
+            <span class="project-category">CAD & Graphics</span>
+            <span class="project-status">First-Year Coursework</span>
+          </div>
+          <h3 class="project-title">Orthographic Projections & Machine Component Drafting</h3>
+          <p class="project-desc">
+            Studying engineering drawing standards, isometric views, sectioning, and introductory computer-aided 2D/3D drafting for standard mechanical fasteners and assemblies.
+          </p>
+          <div class="project-tags">
+            <span class="project-tag">Engineering Drawing</span>
+            <span class="project-tag">CAD Fundamentals</span>
+            <span class="project-tag">Geometric Tolerancing</span>
+          </div>
+        </article>
+
+        <!-- Project 2: Mechanical Workshop Practice -->
+        <article class="project-card hud-corner reveal-on-scroll">
+          <div class="project-badge-row">
+            <span class="project-category">Fabrication Lab</span>
+            <span class="project-status">Hands-on Lab</span>
+          </div>
+          <h3 class="project-title">Mechanical Workshop Processes & Material Fabrication</h3>
+          <p class="project-desc">
+            Hands-on practical training in benchwork fitting, carpentry joinery, basic arc welding, sheet metal forming, and understanding primary machine tool operations.
+          </p>
+          <div class="project-tags">
+            <span class="project-tag">Bench Fitting</span>
+            <span class="project-tag">Welding</span>
+            <span class="project-tag">Machine Tools</span>
+            <span class="project-tag">Shop Safety</span>
+          </div>
+        </article>
+
+        <!-- Project 3: Engineering Portfolio & 3D Kinematics -->
+        <article class="project-card hud-corner reveal-on-scroll">
+          <div class="project-badge-row">
+            <span class="project-category">Digital Tools</span>
+            <span class="project-status">Live Interactive</span>
+          </div>
+          <h3 class="project-title">Kinematic Planetary Gear Simulator & Web Portfolio</h3>
+          <p class="project-desc">
+            Building this responsive portfolio website incorporating a custom Three.js WebGL simulation illustrating planetary gear kinematics and gimbal rotation with real-time interactivity.
+          </p>
+          <div class="project-tags">
+            <span class="project-tag">Three.js</span>
+            <span class="project-tag">WebGL</span>
+            <span class="project-tag">HTML5 / CSS3</span>
+            <span class="project-tag">Kinematics</span>
+          </div>
+        </article>
+
+        <!-- Project 4: Future Project Placeholder / Work in Progress -->
+        <article class="project-card in-progress hud-corner reveal-on-scroll">
+          <div class="project-badge-row">
+            <span class="project-category" style="color: var(--accent-gold);">Upcoming Semester</span>
+            <span class="project-status">Roadmap</span>
+          </div>
+          <h3 class="project-title">Robotics Lab / SAE Collegiate Design Competition</h3>
+          <p class="project-desc">
+            Preparing to join collegiate technical societies (such as SAE Collegiate Club / Robotics Lab) to contribute towards autonomous rover mechanisms and vehicle dynamics in upcoming semesters.
+          </p>
+          <div class="project-tags">
+            <span class="project-tag">Robotics</span>
+            <span class="project-tag">Mechanism Design</span>
+            <span class="project-tag">Team Projects</span>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       6. CAREER INTERESTS SECTION
+       ========================================================================= -->
+  <section id="interests" class="section">
+    <div class="container">
+      
+      <div class="section-header reveal-on-scroll">
+        <div class="section-tag">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"></circle>
+            <polygon points="12 6 12 12 16 14"></polygon>
+          </svg>
+          <span>Aspirations & Future Exploration</span>
+        </div>
+        <h2 class="section-title">My Interests</h2>
+        <p class="section-subtitle">
+          These are the engineering domains and emerging fields I am motivated to explore, study deeply, and develop competencies in throughout my degree.
+        </p>
+      </div>
+
+      <div class="interests-grid">
+        
+        <!-- Interest 1 -->
+        <div class="interest-card hud-corner reveal-on-scroll">
+          <div class="interest-icon-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="3"></circle>
+              <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+            </svg>
+          </div>
+          <div>
+            <h3 class="interest-title">Mechanical Engineering</h3>
+            <p class="interest-desc">Understanding core physical laws, thermodynamics, fluid dynamics, and mechanics of materials.</p>
+          </div>
+        </div>
+
+        <!-- Interest 2 -->
+        <div class="interest-card hud-corner reveal-on-scroll">
+          <div class="interest-icon-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+            </svg>
+          </div>
+          <div>
+            <h3 class="interest-title">Engineering Design</h3>
+            <p class="interest-desc">Formulating mechanical components that balance structural durability, ergonomics, and efficiency.</p>
+          </div>
+        </div>
+
+        <!-- Interest 3 -->
+        <div class="interest-card hud-corner reveal-on-scroll">
+          <div class="interest-icon-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+              <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+            </svg>
+          </div>
+          <div>
+            <h3 class="interest-title">Manufacturing</h3>
+            <p class="interest-desc">Studying casting, machining, welding, additive manufacturing, and quality control systems.</p>
+          </div>
+        </div>
+
+        <!-- Interest 4 -->
+        <div class="interest-card hud-corner reveal-on-scroll">
+          <div class="interest-icon-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+              <rect x="9" y="9" width="6" height="6"></rect>
+              <line x1="9" y1="1" x2="9" y2="4"></line>
+              <line x1="15" y1="1" x2="15" y2="4"></line>
+              <line x1="9" y1="20" x2="9" y2="23"></line>
+              <line x1="15" y1="20" x2="15" y2="23"></line>
+              <line x1="20" y1="9" x2="23" y2="9"></line>
+              <line x1="20" y1="14" x2="23" y2="14"></line>
+              <line x1="1" y1="9" x2="4" y2="9"></line>
+              <line x1="1" y1="14" x2="4" y2="14"></line>
+            </svg>
+          </div>
+          <div>
+            <h3 class="interest-title">Robotics & Automation</h3>
+            <p class="interest-desc">Interfacing mechanical linkages with sensors, microcontrollers, actuators, and control algorithms.</p>
+          </div>
+        </div>
+
+        <!-- Interest 5 -->
+        <div class="interest-card hud-corner reveal-on-scroll">
+          <div class="interest-icon-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+              <polyline points="2 17 12 22 22 17"></polyline>
+              <polyline points="2 12 12 17 22 12"></polyline>
+            </svg>
+          </div>
+          <div>
+            <h3 class="interest-title">CAD / 3D Design</h3>
+            <p class="interest-desc">Learning 3D solid modeling, parametric drafting, component simulation, and motion analysis.</p>
+          </div>
+        </div>
+
+        <!-- Interest 6 -->
+        <div class="interest-card hud-corner reveal-on-scroll">
+          <div class="interest-icon-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2a10 10 0 0 1 10 10c0 5.52-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2z"></path>
+              <path d="M12 6v6l4 2"></path>
+            </svg>
+          </div>
+          <div>
+            <h3 class="interest-title">AI in Engineering</h3>
+            <p class="interest-desc">Leveraging artificial intelligence tools to optimize design parameters, simulations, and data analysis.</p>
+          </div>
+        </div>
+
+        <!-- Interest 7 -->
+        <div class="interest-card hud-corner reveal-on-scroll">
+          <div class="interest-icon-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+            </svg>
+          </div>
+          <div>
+            <h3 class="interest-title">Emerging Technologies</h3>
+            <p class="interest-desc">Following innovations in renewable energy, electric vehicle tech, smart materials, and Industry 4.0.</p>
+          </div>
+        </div>
+
+        <!-- Interest 8 -->
+        <div class="interest-card hud-corner reveal-on-scroll">
+          <div class="interest-icon-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 18l6-6-6-6"></path>
+            </svg>
+          </div>
+          <div>
+            <h3 class="interest-title">Innovation & Problem Solving</h3>
+            <p class="interest-desc">Applying structured analytical reasoning to real-world challenges through hands-on prototyping.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       7. CONTACT SECTION
+       ========================================================================= -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      
+      <div class="section-header reveal-on-scroll">
+        <div class="section-tag">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+          </svg>
+          <span>Get In Touch</span>
+        </div>
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-subtitle">
+          "Whether you want to connect, collaborate, discuss engineering, or share an opportunity, feel free to reach out."
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        
+        <!-- Left: Verified Contact Information & Quick Actions -->
+        <div class="contact-info-card hud-corner reveal-on-scroll">
+          <div class="contact-info-header">
+            <h3>Contact Channels</h3>
+            <p>I am always excited to discuss engineering, student projects, academic endeavors, and professional opportunities.</p>
+          </div>
+
+          <div class="contact-details-list">
+            
+            <!-- Email Detail Card -->
+            <div class="contact-detail-item">
+              <div class="contact-item-left">
+                <div class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <span class="contact-meta-label">Email Address</span>
+                  <a href="mailto:shravan284687@gmail.com" class="contact-meta-value">
+                    shravan284687@gmail.com
+                  </a>
+                </div>
+              </div>
+              <button class="copy-btn copy-email-btn" type="button" aria-label="Copy Email Address" title="Copy to clipboard">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+              </button>
+            </div>
+
+            <!-- LinkedIn Detail Card -->
+            <div class="contact-detail-item">
+              <div class="contact-item-left">
+                <div class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <span class="contact-meta-label">LinkedIn Profile</span>
+                  <a href="https://www.linkedin.com/in/shravan-kumar-25176b433?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" class="contact-meta-value">
+                    shravan-kumar-25176b433
+                  </a>
+                </div>
+              </div>
+              <a href="https://www.linkedin.com/in/shravan-kumar-25176b433?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" class="copy-btn" aria-label="Visit LinkedIn Profile" title="Open LinkedIn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+
+            <!-- Academic Location Detail Card -->
+            <div class="contact-detail-item">
+              <div class="contact-item-left">
+                <div class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <span class="contact-meta-label">Location / Campus</span>
+                  <span class="contact-meta-value">JECRC University &bull; Jaipur, Rajasthan</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Right: Professional Contact Form -->
+        <div class="contact-form-card hud-corner reveal-on-scroll">
+          <form id="portfolio-contact-form" autocomplete="on">
+            
+            <div class="form-group">
+              <label for="sender-name" class="form-label">Your Name *</label>
+              <input type="text" id="sender-name" class="form-control" placeholder="e.g. Dr. Rajesh Sharma / Alex Chen" required>
+            </div>
+
+            <div class="form-group">
+              <label for="sender-email" class="form-label">Your Email *</label>
+              <input type="email" id="sender-email" class="form-control" placeholder="e.g. name@university.edu or name@company.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="sender-subject" class="form-label">Subject</label>
+              <input type="text" id="sender-subject" class="form-control" placeholder="e.g. Academic Discussion / Project Collaboration / Inquiry">
+            </div>
+
+            <div class="form-group">
+              <label for="sender-message" class="form-label">Message *</label>
+              <textarea id="sender-message" class="form-control" rows="5" placeholder="Write your message here..." required></textarea>
+            </div>
+
+            <div class="form-submit-row">
+              <button type="submit" id="contact-submit-btn" class="btn btn-primary" style="width: 100%;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                <span>Send Message</span>
+              </button>
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       8. FOOTER
+       ========================================================================= -->
+  <footer class="footer">
+    <div class="container">
+      
+      <!-- Top Row -->
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-brand-title">Shravan Kumar</span>
+          <span class="footer-brand-desc">First-Year B.Tech Mechanical Engineering Student &bull; JECRC University, Jaipur</span>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer Quick Links">
+          <a href="#home" class="footer-link">Home</a>
+          <a href="#about" class="footer-link">About</a>
+          <a href="#education" class="footer-link">Education</a>
+          <a href="#skills" class="footer-link">Skills</a>
+          <a href="#projects" class="footer-link">Projects</a>
+          <a href="#interests" class="footer-link">Interests</a>
+          <a href="#contact" class="footer-link">Contact</a>
+        </nav>
+      </div>
+
+      <!-- Bottom Row -->
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; 2026 Shravan Kumar. All Rights Reserved.
+        </p>
+
+        <div class="footer-actions">
+          <!-- Social Icons in Footer -->
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/shravan-kumar-25176b433?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn Profile" title="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+            <a href="mailto:shravan284687@gmail.com" class="social-btn" aria-label="Email Shravan Kumar" title="Email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub Profile Placeholder" title="GitHub">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            </a>
+          </div>
+
+          <!-- Back to Top Button -->
+          <a href="#home" class="back-to-top-btn" aria-label="Scroll back to top">
+            <span>Back to top</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"></polyline></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       MODAL: RESUME / CV VIEWER & DOWNLOAD
+       ========================================================================= -->
+  <div class="modal-overlay" id="resume-modal" role="dialog" aria-modal="true" aria-labelledby="resume-dialog-title">
+    <div class="modal-window">
+      <div class="modal-header">
+        <h3 class="modal-title" id="resume-dialog-title">Resume / Curriculum Vitae</h3>
+        <button type="button" class="modal-close-btn" id="close-resume-modal" aria-label="Close resume preview">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <div style="text-align: center; margin-bottom: 1.5rem; padding-bottom: 1.25rem; border-bottom: 1px solid var(--border-subtle);">
+          <h2 style="font-family: var(--font-display); font-size: 1.5rem; font-weight: 800; color: var(--text-main);">Shravan Kumar</h2>
+          <p style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--accent-cyan); margin-top: 0.25rem;">
+            B.Tech Mechanical Engineering Student &bull; First Year (9.5 CGPA)
+          </p>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.4rem;">
+            JECRC University, Jaipur &bull; shravan284687@gmail.com
+          </p>
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 1.25rem; font-size: 0.9rem;">
+          <div>
+            <h4 style="font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; color: var(--accent-cyan); letter-spacing: 0.05em; margin-bottom: 0.5rem;">
+              Educational Record
+            </h4>
+            <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.6rem;">
+              <li style="display: flex; justify-content: space-between; border-left: 2px solid var(--accent-cyan); padding-left: 0.75rem;">
+                <div>
+                  <strong>B.Tech in Mechanical Engineering</strong><br>
+                  <span style="color: var(--text-muted);">JECRC University, Jaipur (1st Year)</span>
+                </div>
+                <strong style="color: var(--accent-cyan);">9.5 CGPA</strong>
+              </li>
+              <li style="display: flex; justify-content: space-between; border-left: 2px solid var(--accent-gold); padding-left: 0.75rem;">
+                <div>
+                  <strong>Class 12 – CBSE Board</strong><br>
+                  <span style="color: var(--text-muted);">Army Public School, Amritsar</span>
+                </div>
+                <strong style="color: var(--accent-gold);">90%</strong>
+              </li>
+              <li style="display: flex; justify-content: space-between; border-left: 2px solid var(--accent-gold); padding-left: 0.75rem;">
+                <div>
+                  <strong>Class 10 – CBSE Board</strong><br>
+                  <span style="color: var(--text-muted);">Army Public School, Amritsar</span>
+                </div>
+                <strong style="color: var(--accent-gold);">92%</strong>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 style="font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; color: var(--accent-cyan); letter-spacing: 0.05em; margin-bottom: 0.5rem;">
+              Key Achievements & Sports
+            </h4>
+            <ul style="padding-left: 1.2rem; color: var(--text-muted); line-height: 1.6;">
+              <li><strong style="color: var(--text-main);">All India Rank 156</strong> in Merchant Navy Entrance Examination.</li>
+              <li><strong style="color: var(--text-main);">NDA Written Qualified</strong> &amp; SSB Candidate (Screen Out).</li>
+              <li><strong style="color: var(--text-main);">State Level Football Player</strong> &bull; Experienced team player and athlete.</li>
+              <li><strong style="color: var(--text-main);">District Level Basketball Player</strong> &bull; Agile tactical competitor.</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 style="font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase; color: var(--accent-cyan); letter-spacing: 0.05em; margin-bottom: 0.5rem;">
+              Skills &amp; Interests
+            </h4>
+            <p style="color: var(--text-muted); line-height: 1.6;">
+              Mechanical Engineering Fundamentals, Engineering Mathematics, Workshop Fabrication, Basic Programming, CAD / 3D Design, AI Tools, Technical Problem Solving, Communication, Teamwork.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary btn-sm" id="print-resume-btn">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+          <span>Print / Save as PDF</span>
+        </button>
+        <a href="#contact" class="btn btn-primary btn-sm" onclick="document.getElementById('close-resume-modal').click();">
+          <span>Get In Touch</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Interactive Toast Feedback Banner -->
+  <div id="toast-banner" class="toast-banner" role="status" aria-live="polite">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: var(--accent-cyan);">
+      <circle cx="12" cy="12" r="10"></circle>
+      <polyline points="12 6 12 12 14 14"></polyline>
+    </svg>
+    <span id="toast-text">Action completed successfully.</span>
+  </div>
+
+  <!-- Three.js Library for 3D Kinematics Simulation -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+  <!-- Custom Scripts -->
+  <script src="js/three-scene.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
